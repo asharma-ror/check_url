@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### With ActiveRecord
+
+```ruby    
+class Post < ActiveRecord::Base
+
+  validates :article_page, :url => true
+
+end
 
 ## Contributing
 
