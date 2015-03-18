@@ -27,4 +27,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
   spec.add_development_dependency "pry-remote"
   spec.add_development_dependency "pry-nav"
+  
+  spec.add_dependency "addressable"
+  spec.add_dependency "activesupport"
+  spec.add_dependency "activerecord"
+  spec.add_dependency "httpi"
+
+
 end
